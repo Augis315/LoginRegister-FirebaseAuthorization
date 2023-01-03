@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 1.5em;
+}
+
+.fullScreenContainer {
+  background-image: url("../img/homescreen.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.haveDontAcc {
+  color: white;
+  font-weight: lighter;
+  text-decoration: none;
+  font-size: 1em;
+}
+.haveDontAcc a:hover {
+  text-decoration: underline;
+}
+
+.loginContainer {
+  background-color: hsla(200, 6%, 41%, 0.6);
+  padding: 50px 30px;
+  min-width: 400px;
+  width: 50%;
+  max-width: 600px;
+}
+
+.loginTitle {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.inputGroup label {
+  color: white;
+  font-weight: lighter;
+  font-size: 1em;
+  margin-bottom: 7px;
+}
+
+.inputGroup input {
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  background-color: hsla(200, 6%, 41%, 0.3);
+  border: 1px solid hsl(197, 4%, 35%);
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+
+.inputGroup input:focus {
+  border: hsl(197, 4%, 50%);
+}
+
+.loginBtn {
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: hsla(200, 6%, 41%, 0.3);
+  border: 1px solid hsl(197, 4%, 35%);
+  outline: none;
+  font-size: 1em;
+  color: white;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: hsla(200, 6%, 41%, 0.6);
+}
+.loginBtn:focus {
+  background-color: hsla(200, 6%, 41%, 1);
+}

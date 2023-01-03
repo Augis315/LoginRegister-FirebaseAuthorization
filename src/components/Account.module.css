@@ -1,0 +1,9 @@
+.AccFullScreenContainer {
+  background-image: url("../img/homescreen.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  transform: scale(1.1);
+}

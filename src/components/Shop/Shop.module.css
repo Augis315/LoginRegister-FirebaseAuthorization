@@ -1,0 +1,14 @@
+h1 {
+  font-size: 100px;
+}
+
+.fullScreenContainer {
+  background-image: url("../../img/phoneWp.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
